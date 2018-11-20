@@ -1,0 +1,13 @@
+targets = [ "//:geojson-cpp" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-geometry.hpp"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-rapidjson"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-variant"
+version = "branch=master"
